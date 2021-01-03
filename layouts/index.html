@@ -66,7 +66,7 @@ var config = {
 		scales: {
 			xAxes: [{
 				scaleLabel: {
-					display: true,
+					display: false,
 					labelString: 'Spedizioni vaccini dal V-Day'
 				}
 			}],
@@ -76,8 +76,8 @@ var config = {
 					drawOnChartArea: false
 				},
 				scaleLabel: {
-					display: true,
-					labelString: 'Aggiornamento dati dal V-Day'
+					display: false,
+					labelString: ''
 				}
 			}, {
 				id: 'total_vaccinations',
@@ -87,7 +87,7 @@ var config = {
 				},
 				scaleLabel: {
 					display: true,
-					labelString: 'Totale Vaccinazioni'
+					labelString: 'Vaccinazioni'
 				}
 			}]
 		},
@@ -98,7 +98,7 @@ var config = {
 				delimiter: ',',
 				rowMapping: 'index',
 				datasetLabels: false,
-				indexLabels: false
+				indexLabels: true
 			}
     },
     legend: {
@@ -106,7 +106,7 @@ var config = {
          },
          tooltips: {
             enabled: true
-         },
+		 },
 	}
 };
 
