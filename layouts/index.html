@@ -16,22 +16,24 @@
   <div class="content"> 
     <div class="index-content framed">
       <h1 id="hello-there">Quando finirà?</h1>
-      <p1>E' la domanda che ci facciamo tutti da quando il vaccino è arrivato in Italia.</p1>
-	  <p>L'obbiettivo è raggiungere l'immunità di gregge vaccinando l'80% circa dei cittadini Italiani.</p>
-	  <p>Le consegne dei vaccini ci possono dare un idea di quanto tempo manca prima che possiamo ritornare tutti alla normalità.</p>
+      <p>E' la domanda che ci facciamo tutti da quando il vaccino è arrivato in Italia.
+	  L'obbiettivo è raggiungere l'immunità di gregge vaccinando l'80% circa dei cittadini Italiani.
+	  Le consegne dei vaccini ci possono dare un idea di quanto tempo manca prima che possiamo ritornare tutti alla normalità.</p>
 	  <br><br><br>
-	  <div style="overflow: hidden;">
+	  <div class="prova">
+	  <p>Con la media dei vaccini giornalieri ho impostato un counter<br> che segna il tempo rimanente all'immunità di gregge:</p>
+	  </div>
+	  <div style="overflow: hidden; text-align: center;">
 		<p class="inline" id="days"></p>
 		<p class="inline" id="hours"></p>
 		<p class="inline" id="mins"></p>
 		<p class="inline" id="secs"></p>
-        
-	    <h2 id="end"></h2>
+        <h2 id="end"></h2>
 	  </div>
       <div align="center">
         <canvas id="myChart"></canvas><br><br><br>
+		<p>Il counter ovviamente non ha nessuna valenza scientifica, questo sito ha come obiettivo unicamente rendere coscienti le persone di quanto sia importante vaccinarsi e di come una forte adesione alla campagna vaccinale possa influenzare pesantemente il tempo che servirà per mettere la parola fine al COVID-19</p><br><br><br>
         <a class="read-more button" href="/timeline">Cosa farai quando sarà finito </a>
-        
       </div>
     </div> 
 
@@ -66,8 +68,8 @@ var config = {
 		scales: {
 			xAxes: [{
 				scaleLabel: {
-					display: false,
-					labelString: 'Spedizioni vaccini dal V-Day'
+					display: true,
+					labelString: 'Aggiornamento giornaliero numero vaccinati'
 				}
 			}],
 			yAxes: [{
@@ -76,8 +78,8 @@ var config = {
 					drawOnChartArea: false
 				},
 				scaleLabel: {
-					display: false,
-					labelString: 'Aggiornamento dati dal V-Day'
+					display: true,
+					labelString: 'Aggiornamento giornaliero numero Vaccinati'
 				}
 			}, {
 				id: 'total_vaccinations',
@@ -98,7 +100,7 @@ var config = {
 				delimiter: ',',
 				rowMapping: 'index',
 				datasetLabels: true,
-				indexLabels: true				
+				indexLabels: false
 			}
 			
     },
@@ -118,7 +120,6 @@ window.onload = function() {
 };
 
 </script>
-
 
 
 
