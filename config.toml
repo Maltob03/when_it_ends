@@ -1,6 +1,6 @@
 baseURL = "/"
 title   = "When-It-Ends"
-languageCode = "en-us"
+languageCode = "it-It"
 theme = "timeline"
 
 PygmentsCodeFences = true
