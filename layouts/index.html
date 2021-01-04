@@ -3,6 +3,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
+<script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
 
 
 
@@ -71,8 +72,10 @@
 	</div>
 
     
-    
-
+    <div class="cookie-banner" style="display: none">
+		<p>By using our website, you agree to our <a href=’https://google.it/>cookie policy</a></p>
+		<button class="close">&times;</button>
+	</div>
 
     
   </div>
@@ -190,7 +193,8 @@ window.onload = function() {
         document.getElementById("end").innerHTML = "TIME UP!!";
     }
     }, 1000);
-    </script>
+	</script>
+	
 
 
 
