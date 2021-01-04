@@ -4,27 +4,19 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datasource@0.1.0"></script>
 <script type="text/javascript" src="https://nibirumail.com/docs/scripts/nibirumail.cookie.min.js"></script>
-
-
-
-
-
 <main aria-role="main"> 
-
-  
-
-
-  <div class="content"> 
-    <div class="index-content framed">
+	
+    <div class="content"> 
+      <div class="index-content framed">
 	  <h1 id="hello-there">Quando finirà?</h1>
 	  <div style="text-align: justify;">
-      <p>E' la domanda che ci facciamo tutti da quando il vaccino è arrivato in Italia.
+      <p>E' la domanda più gettonata da quando il vaccino è arrivato in Italia.
 	  L'obbiettivo è raggiungere l'immunità di gregge vaccinando l'80% circa dei cittadini Italiani.
-	  Le consegne dei vaccini ci possono dare un idea di quanto tempo manca prima che possiamo ritornare tutti alla normalità.</p>
+	  Il dato sulle vaccinazioni può dare un idea di quanto tempo manca all'archiviazione definitiva della pandemia.</p>
 	  </div>
 	  <br><br><br>
 	  <div style="text-align: justify;">
-	  <p>Con la media dei vaccini giornalieri ho impostato un counter<br> che segna il tempo rimanente all'immunità di gregge:</p>
+	  <p>Con la media dei vaccini effettuati negli ultimi 3 giorni ho impostato un counter<br> che segna il tempo rimanente al raggiungimento dell'immunità di gregge:</p>
 	  </div>
 	  <div style="overflow: hidden; text-align: center;">
 		<p class="inline" id="days"></p>
@@ -36,7 +28,7 @@
       <div align="center">
 		<canvas id="myChart"></canvas><br><br><br>
 		<div style="text-align: justify;">
-		<p>Il counter ovviamente non ha nessuna valenza scientifica, questo sito ha come obiettivo unicamente rendere coscienti le persone di quanto sia importante vaccinarsi e di come una forte adesione alla campagna vaccinale possa influenzare pesantemente il tempo che servirà per mettere la parola fine al COVID-19</p>
+		<p>Il counter ovviamente non ha nessuna valenza scientifica, questo sito ha come unico obiettivo rendere coscienti le persone di quanto sia importante vaccinarsi e di come una forte adesione alla campagna vaccinale possa influenzare concretamente il tempo che servirà per mettere la parola fine al COVID-19</p>
 		<p>Di seguito alcuni documenti interessanti per farsi un idea oggettiva sul vaccino</p>
 		<li>
 			<ul><a href="https://www.aifa.gov.it/domande-e-risposte-su-vaccino-covid-19-comirnaty">Domande e risposte dall'AIFA</a></ul>
@@ -45,12 +37,11 @@
 			<ul><a href="https://www.repubblica.it/salute/2020/12/30/news/vaccino_covid_parliamo_di_effetti_collaterali-280434916/">Effetti collaterali o sistema immunitario giovane ed efficace?</a></ul>
 		</li>
 		<br><br><br>
-		</div>
-        <a class="read-more button" href="/timeline">Cosa farai quando sarà finito </a>
-      </div>
+		
 	</div> 
 	
 
+	<h3>Usa il modulo per inserire un messaggio nella timeline</h3>
 	<div>
 		<form name="contact" method="POST" data-netlify="true">
 			<p>
@@ -63,26 +54,25 @@
 			  <label>Messaggio: <textarea name="message"></textarea></label>
 			</p>
 			
+			<div style="align-content: center;">
 			<p>
 			  <button type="submit">Invia</button>
 			</p>
+		    </div>
 		    
-		  </form>
-		  <input type="hidden" name="form-name" value="contact">
-	</div>
-
-    
-    <div class="cookie-banner" style="display: none">
-		<p>By using our website, you agree to our <a href=’https://google.it/>cookie policy</a></p>
-		<button class="close">&times;</button>
-	</div>
-
-    
+		</form>
+		<input type="hidden" name="form-name" value="contact">
+	</div>    
   </div>
+
+<br><br><br>
+<p>Guarda i messaggi degli utenti</p>
+</div>
+<a class="read-more button" href="/timeline">Timeline</a>
+</div>
 
 
 <script>
-
 var config = {
   type: 'bar',
 	data: {
@@ -155,7 +145,6 @@ window.onload = function() {
 	window.myChart = new Chart(ctx, config);
   
 };
-
 </script>
 
 
@@ -163,7 +152,7 @@ window.onload = function() {
 
 <script>
     // The data/time we want to countdown to
-    var countDownDate = new Date("Jun 20, 2021 10:00:00").getTime();
+    var countDownDate = new Date("Jul 04, 2021 10:00:00").getTime();
 
     // Run myfunc every second
     var myfunc = setInterval(function() {
