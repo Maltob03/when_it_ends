@@ -10,7 +10,7 @@ paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a MIT License." 
 
-# googleAnalytics = ""
+googleAnalytics = " UA-142195063-2"
 # disqusShortname = ""
 
 archetypeDir = "archetypes"
