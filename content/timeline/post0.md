@@ -13,5 +13,4 @@ weight: 10
 ---
 
 
-Covid 20:"Mancano 133 giorni alla mia entrata in scena":smiley:.
-Scritta da un utente anonimo...
+Covid 20:"Mancano 133 giorni alla mia entrata in scena":smiley:.  Scritta da un utente anonimo..
