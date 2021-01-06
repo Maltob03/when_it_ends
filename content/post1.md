@@ -2,7 +2,7 @@
 author:
   name: "Felice"
 date: 2021-01-06
-linktitle: 
+linktitle: post1
 type:
 - post
 - posts
