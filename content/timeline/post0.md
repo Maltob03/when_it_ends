@@ -2,7 +2,7 @@
 author:
   name: "Covid 20"
 date: 2021-01-05
-linktitle: 
+linktitle: post0
 type:
 - post
 - posts
