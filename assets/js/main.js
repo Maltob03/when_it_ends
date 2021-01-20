@@ -74,7 +74,7 @@ var config = {
 
 
     // The data/time we want to countdown to
-    var countDownDate = new Date("Jun 3, 2024 10:00:00").getTime();
+    var countDownDate = new Date("Sep 24, 2025 10:00:00").getTime();
 
     // Run myfunc every second
     var myfunc = setInterval(function() {
