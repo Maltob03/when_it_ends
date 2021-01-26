@@ -12,4 +12,4 @@ eventlocation:
 weight: 10
 ---
 
-Dopo un inizio promettente, la speranza è sempre si sta affievolendo. Spero di poter presto uscire e prendere quel treno per Torino, per venire da te. Aspettami alla stazione
+Dopo un inizio promettente, la speranza si sta affievolendo. Spero di poter presto uscire e prendere quel treno per Torino, per venire da te. Aspettami alla stazione
