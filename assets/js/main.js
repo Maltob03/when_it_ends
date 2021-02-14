@@ -77,11 +77,7 @@ var config = {
 
 
     // The data/time we want to countdown to
-<<<<<<< HEAD
     var countDownDate = new Date("Apr 02, 2023 10:00:00").getTime();
-=======
-    var countDownDate = new Date("Feb 01, 2023 10:00:00").getTime();
->>>>>>> 0c490260be56d590b64c2bbf058691a1b6cfc719
 
     // Run myfunc every second
     var myfunc = setInterval(function() {
