@@ -1,4 +1,4 @@
-<h1 align="center">A small project during the pandemic</h1>
+<h1 align="center">When-it-ends</h1>
 
 <!-- 
 <p align="center">
